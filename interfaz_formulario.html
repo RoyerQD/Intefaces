@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Búsqueda | Biblioteca</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-700 text-white p-4 shadow">
+    <h1 class="text-xl font-bold">Buscar Libros</h1>
+  </header>
+  <div class="flex min-h-screen">
+
+<aside class="w-64 bg-white p-4 shadow-lg">
+  <nav class="flex flex-col gap-4">
+    <a href="index.html" class="text-blue-700 font-semibold">📊 Dashboard</a>
+    <a href="interfaz_usuarios.html">👤 Usuarios</a>
+    <a href="interfaz_reportes.html">📈 Reportes</a>
+    <a href="interfaz_formulario.html">🔍 Búsqueda</a>
+    <a href="interfaz_perfil.html">⚙️ Perfil</a>
+  </nav>
+</aside>
+
+<main class="p-6">
+    <h2 class="text-2xl font-bold mb-4">Formulario de Búsqueda</h2>
+    <form class="bg-white p-6 rounded shadow space-y-4">
+      <input type="text" placeholder="Título del libro" class="w-full p-2 border rounded" />
+      <input type="text" placeholder="Autor" class="w-full p-2 border rounded" />
+      <select class="w-full p-2 border rounded">
+        <option value="">Categoría</option>
+        <option value="novela">Novela</option>
+        <option value="ciencia">Ciencia</option>
+        <option value="historia">Historia</option>
+      </select>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Buscar</button>
+    </form>
+  </main>
+</body>
+</html>
+</div>
